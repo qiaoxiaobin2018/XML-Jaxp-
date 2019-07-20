@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <person> 
-  <p1> 
+  <p1 id1="123">
     <name>zhangsan</name>  
-    <school>SXU</school>  
     <age>300</age>  
     <sex>nan</sex> 
   </p1>  

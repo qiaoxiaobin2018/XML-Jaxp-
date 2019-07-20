@@ -1,5 +1,6 @@
 package cn.xmlParserTest.dom4jTest;
 
+import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -8,12 +9,61 @@ import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
 import java.io.FileOutputStream;
+import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.List;
 
 public class TestDom4j {
     public static void main(String[] args) throws Exception {
-        modifyAge();
+        getValues();
 
+    }
+    //获取第一个p1里面的属性id1的值
+    public static void getValues() throws Exception {
+        /*
+         * 1.得到document
+         * 2.得到根节点
+         * 3.得到第一个p1元素
+        *  4.得到p1里面的属性值
+        *
+        * */
+        //得到document
+        Document document = dom4jMethod.getDocument();
+        //得到根节点
+        Element root = document.getRootElement();
+        //得到第一个p1元素
+        Element p1 = root.element("p1");
+        //得到p1里面的属性值
+        String s = p1.attributeValue("id1");
+        //输出
+        System.out.println(s);
+
+    }
+
+    //删除第一个p1下面的school元素
+    public static void delSchool() throws Exception {
+        /*
+        * 1.得到document
+        * 2.得到根节点
+        * 3.得到第一个p1元素
+        * 4.得到p1下面的school元素
+        * 5.删除（使用p1删除school）
+        *
+        * 6.回写xml
+        *
+        * */
+        //得到document
+        Document document = dom4jMethod.getDocument();
+        //得到根节点
+        Element root = document.getRootElement();
+        //得到第一个p1元素
+        Element p1 = root.element("p1");
+        //得到p1下面的school元素
+        Element school = p1.element("school");
+        //删除（使用p1删除school）
+        p1.remove(school);
+
+        //回写xml
+        dom4jMethod.writeBack(document);
     }
     //修改第一个p1下面元素age的值为30
     public static void modifyAge() throws Exception {
