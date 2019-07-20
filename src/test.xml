@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<person> 
+  <p1> 
+    <name>zhangsan</name>  
+    <school>SXU</school>  
+    <age>300</age>  
+    <sex>nan</sex> 
+  </p1>  
+  <p1> 
+    <name>lisi</name>  
+    <age>300</age> 
+  </p1> 
+</person>
