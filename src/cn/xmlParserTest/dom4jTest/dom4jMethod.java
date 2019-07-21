@@ -13,7 +13,7 @@ import java.io.FileOutputStream;
 
 public class dom4jMethod {
 
-    public static final String PATH = "src/test.xml";
+    public static final String PATH = "src/student.xml";
 
     //获取document
     public static Document getDocument() {
