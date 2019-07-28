@@ -28,4 +28,9 @@ public class Student {
     public void setAge(String age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "id: "+id+"\nname: "+name+"\nage: "+age;
+    }
 }
