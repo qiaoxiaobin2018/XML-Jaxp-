@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90e27080-f359-4123-ad2c-d036e4dd4896" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/cn/java/StudentManageSystem/Student.java" afterPath="$PROJECT_DIR$/src/cn/java/StudentManageSystem/Student.java" />
-      <change beforePath="$PROJECT_DIR$/src/cn/java/StudentManageSystem/StudentManage.java" afterPath="$PROJECT_DIR$/src/cn/java/StudentManageSystem/StudentManage.java" />
-      <change beforePath="$PROJECT_DIR$/src/cn/java/StudentManageSystem/TestStu.java" afterPath="$PROJECT_DIR$/src/cn/java/StudentManageSystem/TestStu.java" />
-      <change beforePath="$PROJECT_DIR$/src/student.xml" afterPath="$PROJECT_DIR$/src/student.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,6 +105,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="qxb1461628082@outlook.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -367,7 +368,7 @@
       <workItem from="1563497616543" duration="12470000" />
       <workItem from="1563584467163" duration="14118000" />
       <workItem from="1563676304852" duration="758000" />
-      <workItem from="1564294736226" duration="6570000" />
+      <workItem from="1564294736226" duration="6631000" />
     </task>
     <task id="LOCAL-00001" summary="添加Xpath">
       <created>1563607125384</created>
@@ -383,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563676478831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加Xpath">
+      <created>1564305526778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564305526778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60572000" />
+    <option name="totallyTimeSpent" value="60633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
